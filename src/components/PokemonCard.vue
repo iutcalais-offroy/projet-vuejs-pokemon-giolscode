@@ -9,6 +9,7 @@
       <p> <strong> Type: </strong> {{ pokemon.type.name }}</p>
       <p> <strong> HP: </strong> {{ pokemon.lifePoints }} | <strong> Taille: </strong> {{ pokemon.lifePoints }}  | <strong> Poids : </strong> {{ pokemon.weight }} </p>
       <p> <strong> Attaque: </strong> {{ pokemon.attack.name }} | <strong> Dégât : </strong> {{ pokemon.attack.damages }} </p>
+      
     </div>
 
   </n-card>
@@ -47,6 +48,6 @@ const props = defineProps({
   background-color: #f9f9f9;
   border-radius: 0 0 8px 8px;
   box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
-  
+
 }
 </style>
